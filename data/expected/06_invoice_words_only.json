@@ -1,0 +1,21 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ИП \"Чистый Дом\"",
+  "supplier_bin": "850312401235",
+  "doc_number": "47",
+  "doc_date": "2026-10-31",
+  "currency": "KZT",
+  "total_amount": 234500,
+  "vat_amount": 0,
+  "line_items": [
+    {
+      "name": "Услуги по уборке офисных помещений за октябрь 2026 года",
+      "qty": null,
+      "price": null
+    }
+  ],
+  "field_confidence": {},
+  "warnings": [
+    "сумма указана только прописью"
+  ]
+}

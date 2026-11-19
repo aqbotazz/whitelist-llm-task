@@ -1,0 +1,24 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "«Алтын Дала» ЖШС",
+  "supplier_bin": "200540018775",
+  "doc_number": "15",
+  "doc_date": "2026-11-02",
+  "currency": "KZT",
+  "total_amount": 556800,
+  "vat_amount": 76800,
+  "line_items": [
+    {
+      "name": "Ұн, 1-сорт",
+      "qty": 100,
+      "price": 4500
+    },
+    {
+      "name": "Қант",
+      "qty": 50,
+      "price": 600
+    }
+  ],
+  "field_confidence": {},
+  "warnings": []
+}

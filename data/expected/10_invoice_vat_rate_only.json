@@ -1,0 +1,24 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО \"Евро Партс Трейдинг\"",
+  "supplier_bin": "181140023456",
+  "doc_number": "EP-1102",
+  "doc_date": "2026-11-10",
+  "currency": "EUR",
+  "total_amount": 2320,
+  "vat_amount": null,
+  "line_items": [
+    {
+      "name": "Подшипник SKF 6205",
+      "qty": 40,
+      "price": 25
+    },
+    {
+      "name": "Ремень приводной Gates",
+      "qty": 12,
+      "price": 110
+    }
+  ],
+  "field_confidence": {},
+  "warnings": []
+}

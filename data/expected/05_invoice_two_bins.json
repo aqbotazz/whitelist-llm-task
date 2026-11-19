@@ -1,0 +1,24 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО \"ОфисЛенд\"",
+  "supplier_bin": "210240005675",
+  "doc_number": "ОЛ-2026/311",
+  "doc_date": "2026-11-17",
+  "currency": "KZT",
+  "total_amount": 353800,
+  "vat_amount": 48800,
+  "line_items": [
+    {
+      "name": "Кресло офисное",
+      "qty": 4,
+      "price": 45000
+    },
+    {
+      "name": "Стол письменный",
+      "qty": 2,
+      "price": 62500
+    }
+  ],
+  "field_confidence": {},
+  "warnings": []
+}

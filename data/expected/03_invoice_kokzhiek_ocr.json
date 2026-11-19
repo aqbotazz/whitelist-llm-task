@@ -1,0 +1,22 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО \"Кокжиек Курылыс\"",
+  "supplier_bin": "210640900180",
+  "doc_number": "AKT-09",
+  "doc_date": "2026-10-09",
+  "currency": "KZT",
+  "total_amount": 340000,
+  "vat_amount": 0,
+  "line_items": [
+    {
+      "name": "Қызмет көрсету / Оказание услуг",
+      "qty": 1,
+      "price": 340000
+    }
+  ],
+  "field_confidence": {},
+  "warnings": [
+    "БИН исправлен после OCR",
+    "номер AKT-09 похож на акт, а документ назван шот-фактурой"
+  ]
+}

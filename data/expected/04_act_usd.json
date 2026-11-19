@@ -1,0 +1,24 @@
+{
+  "doc_type": "act",
+  "supplier_name": "ТОО \"Data Bridge\"",
+  "supplier_bin": "190340001233",
+  "doc_number": "АВР-17",
+  "doc_date": "2026-11-03",
+  "currency": "USD",
+  "total_amount": 812,
+  "vat_amount": 112,
+  "line_items": [
+    {
+      "name": "Настройка сервера",
+      "qty": 10,
+      "price": 50
+    },
+    {
+      "name": "Консультация по базе данных",
+      "qty": 2,
+      "price": 100
+    }
+  ],
+  "field_confidence": {},
+  "warnings": []
+}

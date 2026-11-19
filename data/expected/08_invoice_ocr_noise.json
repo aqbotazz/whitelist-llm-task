@@ -1,0 +1,27 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ИП \"Стройснаб Шымкент\"",
+  "supplier_bin": "171040009871",
+  "doc_number": "307",
+  "doc_date": "2026-11-20",
+  "currency": "KZT",
+  "total_amount": 73080,
+  "vat_amount": null,
+  "line_items": [
+    {
+      "name": "Цемент М400",
+      "qty": 20,
+      "price": 2350
+    },
+    {
+      "name": "Песок речн0й",
+      "qty": 5,
+      "price": 3200
+    }
+  ],
+  "field_confidence": {},
+  "warnings": [
+    "OCR-ошибки в суммах и дате исправлены",
+    "сумма НДС не читается"
+  ]
+}

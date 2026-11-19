@@ -1,0 +1,27 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "ТОО \"ТехноСнаб\"",
+  "supplier_bin": "220940012348",
+  "doc_number": "88",
+  "doc_date": "2026-11-14",
+  "currency": "KZT",
+  "total_amount": 348000,
+  "vat_amount": 48000,
+  "line_items": [
+    {
+      "name": "Монитор Dell 24\"",
+      "qty": 2,
+      "price": 100000
+    },
+    {
+      "name": "Клавиатура Logitech",
+      "qty": 10,
+      "price": 10000
+    }
+  ],
+  "field_confidence": {},
+  "warnings": [
+    "две разные суммы к оплате: 348 000 и 384 000",
+    "две разные даты документа: 14.11.2026 и 15.11.2026"
+  ]
+}
