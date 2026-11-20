@@ -17,7 +17,10 @@ def main():
 
     load_dotenv()  # читает GEMINI_API_KEY и GEMINI_MODEL из .env
     text = Path(args.file).read_text(encoding="utf-8")
-    result = extract(text, make_llm(live=args.live))
+    try:
+        result = extract(text, make_llm(live=args.live))
+    except RuntimeError as e:  # нет записанного ответа модели — понятное сообщение вместо трассировки
+        raise SystemExit(f"Ошибка: {e}")
     print(json.dumps(result.model_dump(), ensure_ascii=False, indent=2))
 
 
