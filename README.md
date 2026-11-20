@@ -9,7 +9,7 @@ CLI получает текст документа (счёт, коммерчес
 eval воспроизводит записанные ответы модели (см. раздел «Модель»).
 
 ```bash
-git clone <ссылка на репозиторий>
+git clone https://github.com/aqbotazz/whitelist-llm-task.git
 cd whitelist-llm-task
 make install      # создаёт .venv и ставит зависимости из requirements.txt
 make test         # 25 тестов pytest
